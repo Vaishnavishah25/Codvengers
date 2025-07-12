@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Browse Items | ReWear</title>
+  <link rel="stylesheet" href="browse.css" />
+</head>
+<body>
+
+  <!-- 🔝 Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">ReWear</a></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="add-item.html">Add Item</a></li>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🧭 Filter Section -->
+  <section class="filter-section">
+    <h2>Find Your Next Favorite Outfit</h2>
+
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="🔍 Search by keyword..." />
+
+      <select id="categoryFilter">
+        <option value="">Category</option>
+        <option value="tops">Tops</option>
+        <option value="bottoms">Bottoms</option>
+        <option value="outerwear">Outerwear</option>
+        <option value="accessories">Accessories</option>
+        <option value="ethnic">Ethnic</option>
+      </select>
+
+      <select id="sizeFilter">
+        <option value="">Size</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+
+      <select id="transactionFilter">
+        <option value="">Transaction</option>
+        <option value="swap">Swap</option>
+        <option value="redeem">Redeem</option>
+      </select>
+
+      <select id="conditionFilter">
+        <option value="">Condition</option>
+        <option value="new">New</option>
+        <option value="gently-used">Gently Used</option>
+        <option value="vintage">Vintage</option>
+      </select>
+
+      <select id="sortFilter">
+        <option value="recent">Recently Added</option>
+        <option value="popular">Most Popular</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- 🧥 Item Grid -->
+  <section class="items-grid" id="itemsGrid">
+    <!-- Each item has correct filterable attributes -->
+    <div class="item-card" data-keyword="denim jacket" data-category="outerwear" data-size="M" data-transaction="swap" data-condition="gently-used" data-popularity="5">
+      <img src="img/jacket.jpg" alt="Denim Jacket" />
+      <h3>Denim Jacket</h3>
+      <span class="badge swap">Swap</span>
+      <button class="swap-btn">Request Swap</button>
+    </div>
+
+    <div class="item-card" data-keyword="summer dress" data-category="tops" data-size="M" data-transaction="redeem" data-condition="new" data-popularity="8">
+      <img src="img/dress.jpg" alt="Floral Dress" />
+      <h3>Floral Dress</h3>
+      <span class="badge redeem">Redeem</span>
+      <button class="swap-btn">Redeem with Points</button>
+    </div>
+
+    <div class="item-card" data-keyword="casual shirt" data-category="tops" data-size="L" data-transaction="swap" data-condition="gently-used" data-popularity="6">
+      <img src="img/cardigan.jpg" alt="Wool Cardigan" />
+      <h3>Wool Cardigan</h3>
+      <span class="badge swap">Swap</span>
+      <button class="swap-btn">Request Swap</button>
+    </div>
+
+    <div class="item-card" data-keyword="saree" data-category="ethnic" data-size="XL" data-transaction="redeem" data-condition="new" data-popularity="9">
+      <img src="img/saree.jpg" alt="Silk Saree" />
+      <h3>Silk Saree</h3>
+      <span class="badge redeem">Redeem</span>
+      <button class="swap-btn">Redeem with Points</button>
+    </div>
+
+    <div class="item-card" data-keyword="cardigan" data-category="outerwear" data-size="M" data-transaction="redeem" data-condition="gently-used" data-popularity="6">
+      <img src="img/cardigan.jpg" alt="Wool Cardigan" />
+      <h3>Wool Cardigan</h3>
+      <span class="badge redeem">Redeem</span>
+      <button class="swap-btn">Redeem with Points</button>
+    </div>
+
+    <div class="item-card" data-keyword="kurta" data-category="ethnic" data-size="M" data-transaction="swap" data-condition="gently-used" data-popularity="6">
+      <img src="img/kurta.jpg" alt="Printed Kurta" />
+      <h3>Printed Kurta</h3>
+      <span class="badge swap">Swap</span>
+      <button class="swap-btn">Request Swap</button>
+    </div>
+
+    <div class="item-card" data-keyword="jeans" data-category="bottoms" data-size="L" data-transaction="redeem" data-condition="new" data-popularity="7">
+      <img src="img/jeans.jpg" alt="Blue Jeans" />
+      <h3>Blue Jeans</h3>
+      <span class="badge redeem">Redeem</span>
+      <button class="swap-btn">Redeem with Points</button>
+    </div>
+
+    <div class="item-card" data-keyword="scarf" data-category="accessories" data-size="S" data-transaction="swap" data-condition="vintage" data-popularity="4">
+      <img src="img/scarf.jpg" alt="Silk Scarf" />
+      <h3>Silk Scarf</h3>
+      <span class="badge swap">Swap</span>
+      <button class="swap-btn">Request Swap</button>
+    </div>
+
+    <div class="item-card" data-keyword="blazer" data-category="outerwear" data-size="XL" data-transaction="redeem" data-condition="gently-used" data-popularity="5">
+      <img src="img/blazer.jpg" alt="Formal Blazer" />
+      <h3>Formal Blazer</h3>
+      <span class="badge redeem">Redeem</span>
+      <button class="swap-btn">Redeem with Points</button>
+    </div>
+  </section>
+
+  <!-- 📎 JS Script -->
+  <script src="browse.js"></script>
+</body>
+</html>

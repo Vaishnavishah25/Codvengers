@@ -1,0 +1,94 @@
+:root {
+    --primary: #2e7d32;
+    --accent: #ffb74d;
+    --background: #f1f8e9;
+    --text: #333;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--background);
+  }
+  
+  /* Navbar */
+  .signup-navbar {
+    background-color: var(--primary);
+    padding: 12px 30px;
+  }
+  
+  .signup-navbar .logo a {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Sign-Up Container */
+  .signup-container {
+    max-width: 420px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .signup-container h2 {
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+  
+  .signup-container p {
+    color: #555;
+    font-size: 0.95em;
+    margin-bottom: 25px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .signup-form label {
+    font-weight: bold;
+    color: var(--text);
+  }
+  
+  .signup-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .signup-btn {
+    padding: 12px;
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #ef6c00;
+  }
+  
+  .redirect {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .redirect a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
