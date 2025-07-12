@@ -63,29 +63,29 @@ The homepage welcomes users with a clean layout, logo, and call-to-action that i
 ### 2️⃣ Restricted Dashboard View (Authentication Required)
 If a user attempts to access the dashboard without logging in, an access prompt or redirect appears—reinforcing secure access controls.
 
-![Authentication Prompt Screenshot](screenshots/auth-guard.png)
+![Authentication Prompt Screenshot](Userauthentication.png)
 
 ---
 
 ### 3️⃣ Login Page
 Simple login interface enabling registered users to enter credentials and access personalized features.
 
-![Login Page Screenshot](screenshots/login-page.png)
+![Login Page Screenshot](loginpage.png)
 
 ---
 
 ### 4️⃣ User Dashboard
 Once logged in, users can view their dashboard—featuring swap requests, item listings, and redeem history.
 
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Dashboard Screenshot](dashboard.png)
 
 ---
 
 ### 5️⃣ & 6️⃣ Product Display Section
 Browse page showcasing clothing items with filters like Category, Size, Condition, and Transaction Type. Items include denim jackets, sarees, cardigans, and more.
 
-![Product Section Screenshot 1](screenshots/products-1.png)  
-![Product Section Screenshot 2](screenshots/products-2.png)
+![Product Section Screenshot 1](clothes.png)  
+![Product Section Screenshot 2](clothes2.png)
 
 
 ---
