@@ -85,6 +85,9 @@ Once logged in, users can view their dashboard—featuring swap requests, item l
 Browse page showcasing clothing items with filters like Category, Size, Condition, and Transaction Type. Items include denim jackets, sarees, cardigans, and more.
 
 ![Product Section Screenshot 1](clothes.png)  
+
+---
+
 ![Product Section Screenshot 2](clothes2.png)
 
 
