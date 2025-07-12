@@ -107,3 +107,24 @@ npm install
 
 # Run the project
 npm start
+
+---
+
+## 👥 Team Codvengers
+
+We are a passionate trio working together to build ReWear—a sustainable fashion platform that empowers conscious swapping and digital innovation.
+
+### 💫 Team Members
+
+- **Vaishnavi Shah**  
+  📧 [vaishnavishah6311@gmail.com](mailto:vaishnavishah6311@gmail.com)
+
+- **Daksh Panchal**  
+  📧 [dakshpanchal0605@gmail.com](mailto:dakshpanchal0605@gmail.com)
+
+- **Priyanka Maity**  
+  📧 [maitypriyanka514@gmail.com](mailto:maitypriyanka514@gmail.com)
+
+---
+
+_Thank you for visiting our project! We welcome feedback, collaboration, and community support as we bring ReWear to life._
